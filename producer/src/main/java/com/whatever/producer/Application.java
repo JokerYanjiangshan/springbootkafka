@@ -30,7 +30,7 @@ public class Application implements CommandLineRunner
 
     public static void main( String[] args )
     {
-        logger.debug("main() started.");
+        logger.debug("main() started.produce");
 
         // Disabled the banner, don't want to see the spring logo
         SpringApplication app = new SpringApplication(Application.class);
@@ -40,7 +40,7 @@ public class Application implements CommandLineRunner
 
     @Override
     public void run(String... strings) throws Exception {
-        logger.debug("run() started.");
+        logger.debug("run() started.produce");
 
     }
 
