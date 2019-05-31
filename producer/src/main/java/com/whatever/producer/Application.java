@@ -30,7 +30,7 @@ public class Application implements CommandLineRunner
 
     public static void main( String[] args )
     {
-        logger.debug("main() started.produce");
+        logger.debug("main() started.produceb.brach.one");
 
         // Disabled the banner, don't want to see the spring logo
         SpringApplication app = new SpringApplication(Application.class);
